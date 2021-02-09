@@ -13,6 +13,10 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   text-align: center;
   text-shadow:4px 4px 0 rgba(0,0,0,0.1);
   padding:10px;
+
+  flex-grow:1;
+  flex-shrink: 1;
+  flex-basis: auto;
 }
 
 /* Colours for each box */
@@ -40,5 +44,3 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box2 {
   flex:1 1 400px;
 }
-
-
